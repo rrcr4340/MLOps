@@ -10,10 +10,10 @@ on:
 
 env:
   RESOURCE_GROUP: rg-mlops-ean
-  ACR_NAME: acrmlopseanlp
+  ACR_NAME: acrmlopseanlprc
   ENVIRONMENT: env-mlops-ean
   APP_NAME: api-mlops-ean
-  IMAGE: acrmlopseanlp.azurecr.io/api-mlops-ean:${{ github.sha }}   # cada versión con la etiqueta del commit
+  IMAGE: acrmlopseanlprc.azurecr.io/api-mlops-ean:${{ github.sha }}   # cada versión con la etiqueta del commit
 
 jobs:
   desplegar:
